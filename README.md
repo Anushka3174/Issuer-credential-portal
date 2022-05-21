@@ -1,4 +1,4 @@
-# Affinidi Demo Browser App powered by Affinidi API
+# Issuer web portal demo powered by Affinidi API
 
 This is a react application that has a basic UI with some of the functionalities that Affinidi offers. You can use this app to play around with some of the functionalities offered in the Affinidi API and eventually enable SSI for your own application(s).
 
