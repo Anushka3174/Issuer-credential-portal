@@ -1,6 +1,6 @@
 # Issuer web portal demo powered by Affinidi API
 
-This is a react application that offers a UI and uses Affinidy's API to issue verifiable credentials. The portal can be used to fill in user data by BankID Issuers, Employer and Norwegian Tax Authority which are the three issuers in our implementation. Ideally, they would have their own respectiive portal but since, it is a proof-of-concept implementation, they can be issued through the same web portal. The credentials contain their respective attributes which is signed and presented to the user. Once issued, it can be stored by the holder in their wallet.
+This is a react application that offers a UI and uses Affinidy's API to issue verifiable credentials. The portal can be used to fill in user data by BankID Issuers, Employer and Norwegian Tax Authority which are the three issuers in our implementation. Ideally, they would have their own respective portal but since, it is a proof-of-concept implementation, all three credentials can be issued through the same web portal. The credentials contain their respective attributes which is signed and presented to the user. Once issued, it can be stored by the holder in their wallet.
 
 
 
@@ -46,7 +46,7 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 ### Prepare issuer portal
 1. Clone the repository
-`git clone https://github.com/Anushka3174/DrivingLicenseIssuer.git`
+`https://github.com/Anushka3174/Issuer-credential-portal.git`
 3. Install the dependencies
 `npm install`
 4. Open up the repository in a code editor of your choice
@@ -55,8 +55,9 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 1. Run with npm
 `npm start`
-2. The web app will run on 'http://localhost:3001/'
-2. On the web app, fill in the details and click issue credential.
+2. The web app will run on 'http://localhost:3000/'
+3. Create an account through the 'Sign Up' menu on the top right or use the given credential: Username:BankasIssuer Password: Pass1234
+4. On the web app, fill in the details and click Issue Unsigned VC. 
 ![credential view](assets/IssuerMain.PNG)
 
 4. Scan the QR with your mobile wallet.
