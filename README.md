@@ -42,7 +42,7 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-## Steps to issue Credential:
+## Steps to Issue Credentials:
 
 ### Prepare issuer portal
 1. Clone the repository
@@ -57,16 +57,11 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 `npm start`
 2. The web app will run on 'http://localhost:3000/'
 3. Create an account through the 'Sign Up' menu on the top right or use the given credential: Username:BankasIssuer Password: Pass1234
-4. On the web app, fill in the details and click Issue Unsigned VC. 
+4. On the web app, fill in the details and click Issue Unsigned VC. Verify information anf fix typos or make corrections if required.
 ![credential view](assets/IssuerMain.PNG)
+5. Click on Issue Signed Credential button to issue verifiable credential with crytographic proof.
+6. Copy the credential and paste in your digital wallet. The github repo for the wallet can be found [here](https://github.com/Anushka3174/Holder-Portal.git) 
 
-4. Scan the QR with your mobile wallet.
-![qr code view](assets/IssueQRCode.PNG)
-
-This is a connection invitation.
-Webhooks will automatically issue you a credential once this is scanned and the connection is accepted.
-
-Then, simply accept the credential offer and receive a digital driving license on your wallet!
 ## Learn More
 
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
