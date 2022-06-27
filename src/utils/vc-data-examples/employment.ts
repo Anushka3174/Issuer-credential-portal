@@ -58,7 +58,7 @@ export const norwegianBankIdVcData: VCBuildUnsignedInputBankID = {
         },
         "credentialStatus":{
             "currentStatus":"Active",
-                "statusReason":"Valid for two years",
+                "statusReason":"Verified User",
                 "id":"1234"
         }
 
@@ -68,21 +68,39 @@ export const norwegianBankIdVcData: VCBuildUnsignedInputBankID = {
 };
 
 export const norwegianNavVcData:VCBuildUnsignedInputBankID={
-    "jsonLdContextUrl": "https://schema.affinidi.com/NorwegianNavcertificateV1-1.jsonld",
-    "jsonSchemaUrl": "https://schema.affinidi.com/NorwegianNavcertificateV1-1.json",
-    "typeName": "NorwegianNavcertificate",
-    "credentialSubject": {
-    "data": {
-            "birthdate": "01-08-1995",
-            "name":"John Doe",
-            "nationality":"Norwegian",
-            "canApplyforLoan":true,
-            "reference":{
-            "type":"Contact Person",
-                "name":"Bob Dylan",
-                "email":"bob@employee.nav.com"
-        }
-    }
+    "jsonLdContextUrl": "https://schema.affinidi.com/TaxCertificateNorway5V1-0.jsonld",
+    "jsonSchemaUrl": "https://schema.affinidi.com/TaxCertificateNorway5V1-0.json",
+    "typeName": "TaxCertificateNorway5",
+        "credentialSubject": {
+            "data": {
+                "personalIncomeAndOrdinaryIncome":{
+                    "salariesAndBenefits":"97000",
+                    "interestOnBankDeposits":"0",
+                    "totalIncome":"0"
+                },
+                "deduction":{
+                    "minimumDeductionInOwnIncome":"890",
+                    "premiumForPensionScheme":"0",
+                    "totalDeduction":"0",
+                    "ordinaryIncomeBeforeSpecialDeduction":"0"
+                },
+                "totalBasisForIncomeTax":{
+                    "assets":"0",
+                    "bankDeposits":"0",
+                    "grossAssets":"0",
+                    "netAssets":"0"
+                },
+                "name":"John Doe",
+                "year":"2021",
+                "estimatedTax":"7500",
+                "nationalIdNumber":"01089317899",
+                "settlement":{
+                    "withholdingTax":"5000",
+                    "additionalAdvance":"2500",
+                    "remainingtax":"0"
+                }
+            }
+
 },
     "holderDid": "{{did}}"
 }

@@ -155,7 +155,7 @@ const Issuer = () => {
                         <Button
                             style={{marginLeft: '15px'}}
                             onClick={e => resetToNavDefaults()}
-                        >Nav Certificate</Button>
+                        >Tax Certificate</Button>
 
                    {/* <Button
                     style={{float: 'right'}}
@@ -190,10 +190,10 @@ const Issuer = () => {
                       onChange={e => onDidValueChange(e.target.value)}
                     />
                     </FormGroup>
-                    <Button onClick={issueEmploymentPersonVC}>Issue unsigned VC to
-                    {
+                    <Button onClick={issueEmploymentPersonVC}>Issue unsigned VC
+                    {/*{
                       inputDID === appState.didToken ? ' self' : ' another did'
-                    }
+                    }*/}
                     </Button>
                 </div>
                 <div className='tutorial__step'>
