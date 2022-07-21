@@ -58,9 +58,9 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 2. The web app will run on 'http://localhost:3000/'
 3. Create an account through the 'Sign Up' menu on the top right or use the given credential: Username:BankasIssuer Password: Pass1234
 4. On the web app, fill in the details and click Issue Unsigned VC. Verify information anf fix typos or make corrections if required.
-![credential view](assets/IssuerMain.PNG)
+![credential view](assets/IssuerBankID.PNG)
 5. Click on Issue Signed Credential button to issue verifiable credential with crytographic proof.
-6. Copy the credential and paste in your digital wallet. The github repo for the wallet can be found [here](https://github.com/Anushka3174/Holder-Portal.git) 
+6. Copy the credential and paste in your digital wallet. The github repo for the wallet can be found [here](https://github.com/Anushka3174/Holder-Portal.git)
 
 ## Learn More
 
